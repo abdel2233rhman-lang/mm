@@ -384,3 +384,247 @@ footer{
     color:#fff;
 }
 
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:#fff;
+    cursor:pointer;
+}
+/*==================================
+            768px
+==================================*/
+
+@media (max-width:768px){
+
+.navbar{
+
+    padding:20px;
+    position:relative;
+}
+
+.menu-toggle{
+    display:block;
+}
+
+.navbar button{
+    display:none;
+}
+
+.navbar ul{
+
+    position:absolute;
+    top:80px;
+    left:0;
+
+    width:100%;
+
+    background:#222;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:0;
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:.4s;
+}
+
+.navbar ul.active{
+
+    max-height:450px;
+
+}
+
+.navbar ul li{
+
+    text-align:center;
+
+    padding:18px;
+
+    border-bottom:1px solid #333;
+
+}
+
+/* Hero */
+
+.hero h1{
+
+    font-size:45px;
+
+}
+
+.hero p{
+
+    width:90%;
+
+    font-size:18px;
+
+}
+
+.btns{
+
+    flex-direction:column;
+
+    width:100%;
+    align-items:center;
+
+}
+
+.btn1,
+.btn2{
+
+    width:220px;
+
+}
+
+/* Features */
+
+.features{
+
+    flex-direction:column;
+
+    gap:40px;
+
+    padding:50px 20px;
+
+}
+
+.feature{
+
+    width:100%;
+
+}
+
+/* About */
+
+.about{
+
+    flex-direction:column;
+
+    padding:50px 20px;
+
+}
+
+.about-img,
+.about-text{
+
+    width:100%;
+
+}
+
+.about img{
+
+    width:100%;
+
+}
+
+/* Best */
+
+.best{
+
+    padding:60px 20px;
+
+}
+
+/* Cards */
+
+.cards{
+
+    flex-direction:column;
+
+}
+
+.card{
+
+    width:100%;
+
+}
+
+/* Join */
+
+.join{
+
+    padding:20px;
+
+}
+
+.join h2{
+
+    font-size:34px;
+
+}
+
+/* Footer */
+
+.footer{
+
+    flex-direction:column;
+
+}
+
+.footer div{
+
+    width:100%;
+
+}
+
+}
+/*==================================
+            480px
+==================================*/
+
+@media (max-width:480px){
+
+.logo img{
+
+    width:120px;
+
+}
+
+.hero h1{
+
+    font-size:34px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+.btn1,
+.btn2{
+
+    width:100%;
+
+}
+
+.best h2{
+
+    font-size:30px;
+
+}
+
+.about-text h2{
+
+    font-size:28px;
+
+}
+
+.join h2{
+
+    font-size:28px;
+
+}
+
+.footer-end img{
+
+    width:170px;
+
+}
+
+}
